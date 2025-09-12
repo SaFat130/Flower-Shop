@@ -1,0 +1,33 @@
+/* first-div-start */
+.first{
+    display: flex;
+}
+.d-1 h3{
+    color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.d-1 p{
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.btn-1{
+    display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+}
+.d-2 img{
+    width: 635px;
+height: 800px;
+flex-shrink: 0;
+}
