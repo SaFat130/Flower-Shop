@@ -350,3 +350,78 @@ height: 396px;
 flex-shrink: 0;
 background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 }
+
+/* banner-card-start */
+
+.banner-card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 128px;
+}
+.banner-card img{
+max-width: 100%;
+height: auto;
+display: block;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-text h2{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.banner-text p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-top: 16px;
+}
+
+.subscribe{
+    width: 150px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #E55473;
+}
+.subs-text{
+    width: 88px;
+height: 27.429px;
+flex-shrink: 0;
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.name-box{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.mail-input{
+    width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: #FFF;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+  font-size: 16px;
+}
